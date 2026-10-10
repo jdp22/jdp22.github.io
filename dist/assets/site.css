@@ -138,10 +138,16 @@ strong { font-weight: 600; }
 .paper-links { display: flex; flex-wrap: wrap; gap: 16px; font: 400 13px/1.9 var(--mono); }
 .paper-links a { text-decoration: none; }
 .experience { font-size: 17px; }
-.experience-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 13px; }
-.experience-list li { display: grid; grid-template-columns: 135px 1fr; gap: 18px; }
+.experience-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 20px; }
+.experience-list li { display: grid; grid-template-columns: 135px 76px minmax(0, 1fr); gap: 18px; align-items: center; }
 .experience-list time { font: 400 12px/2.2 var(--mono); color: var(--muted); }
-.experience-list span small { display: block; font-size: 15px; color: var(--muted); }
+.institution-mark { display: grid; place-items: center; min-height: 42px; }
+.institution-logo { display: block; width: 76px; height: 42px; object-fit: contain; }
+.institution-logo--uw { padding: 6px 15px; }
+.institution-logo--ucla { padding: 5px 4px; }
+.institution-logo--uiuc { padding: 2px 24px; }
+.experience-details { min-width: 0; }
+.experience-details small { display: block; font-size: 15px; color: var(--muted); }
 .notebook-note { padding: 20px 0 26px 20px; border-left: 2px solid #c0d6e5; margin: 29px 0 38px; max-width: 690px; }
 .notebook-note .small-hand { font: 400 30px/1.4 var(--hand); color: var(--blue); margin-bottom: 10px; }
 .notebook-note p { font-size: 17px; }
@@ -190,8 +196,10 @@ strong { font-weight: 600; }
   .page-intro { font-size: 18px; }
   .publication { padding-left: 18px; }
   .publication h3 { font-size: 19px; }
-  .experience-list li { grid-template-columns: 110px 1fr; gap: 10px; }
-  .experience-list time { font-size: 11px; }
+  .experience-list li { grid-template-columns: 76px minmax(0, 1fr); column-gap: 16px; row-gap: 1px; }
+  .experience-list time { grid-column: 2; font-size: 11px; }
+  .institution-mark { grid-column: 1; grid-row: 1 / span 2; }
+  .experience-details { grid-column: 2; }
 }
 @media (max-width: 360px) {
   .name { font-size: 59px; }

@@ -12,6 +12,7 @@
 | --- | --- |
 | 个人简介、链接、最新动态 | `dist/index.html` |
 | 论文、研究经历 | `dist/research.html` |
+| 研究经历中的机构标志 | `dist/assets/logos/` |
 | 博客与笔记 | `dist/blog.html` |
 | 兴趣图的文字和互动 | `dist/assets/curiosity-map.mjs` |
 | 配色、字体和页面布局 | `dist/assets/site.css` |
@@ -42,6 +43,13 @@ python3 -m http.server 8000 --directory dist
 
 打开 http://localhost:8000。字体和插图都已包含在仓库中。
 字体 DM Sans 和 Caveat 使用 SIL Open Font License，许可证位于 `dist/assets/fonts/`。
+
+机构标志保留官方颜色与比例，文件存放在仓库中，页面无需从外部加载图片。
+标志来源：[ByteDance 官网](https://www.bytedance.com/en/)、
+[Tencent 媒体资源](https://www.tencent.com/newsroom/media-resources/)、
+[UW 品牌资源](https://www.washington.edu/brand/brand-elements/logos/)、
+[UCLA Design System](https://designsystem.brand.ucla.edu/build/v2.7.0/docs/header-and-navigation/box-logo-header.html)、
+[Illinois Web Resources](https://web.brand.illinois.edu/logos/)。
 
 ## 发布内容
 

@@ -45,7 +45,7 @@ python3 -m http.server 8000 --directory dist
 字体 DM Sans 和 Caveat 使用 SIL Open Font License，许可证位于 `dist/assets/fonts/`。
 
 机构标志保留官方颜色与比例，文件存放在仓库中，页面无需从外部加载图片。
-标志来源：[ByteDance 官网](https://www.bytedance.com/en/)、
+标志来源：[ByteDance 标志](https://commons.wikimedia.org/wiki/File:ByteDance_logo_English.svg)、
 [Tencent 媒体资源](https://www.tencent.com/newsroom/media-resources/)、
 [UW 品牌资源](https://www.washington.edu/brand/brand-elements/logos/)、
 [UCLA Design System](https://designsystem.brand.ucla.edu/build/v2.7.0/docs/header-and-navigation/box-logo-header.html)、

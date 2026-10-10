@@ -139,7 +139,7 @@ strong { font-weight: 600; }
 .paper-links a { text-decoration: none; }
 .experience { font-size: 17px; }
 .experience-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 20px; }
-.experience-list li { display: grid; grid-template-columns: 135px 76px minmax(0, 1fr); gap: 18px; align-items: center; }
+.experience-list li { display: grid; grid-template-columns: 145px 76px minmax(0, 1fr); gap: 18px; align-items: center; }
 .experience-list time { font: 400 12px/2.2 var(--mono); color: var(--muted); }
 .institution-mark { display: grid; place-items: center; min-height: 42px; }
 .institution-logo { display: block; width: 76px; height: 42px; object-fit: contain; }

@@ -9,7 +9,7 @@
 .post-header { margin-bottom: 30px; }
 .post-intro { font-size: 18px; line-height: 1.8; margin: 17px 0 12px; }
 .post-contribute { color: var(--muted); font-size: 15px; line-height: 1.8; margin: 0; }
-.case-source-note { color: var(--muted); font-size: 12px; line-height: 1.7; margin: 8px 0 0; }
+.contribution-requirements { color: var(--muted); font-size: 14px; line-height: 1.8; margin: 9px 0 0; }
 .post-title { color: var(--blue); font-size: 36px; line-height: 1.5; font-weight: 500; letter-spacing: -.5px; margin: 13px 0 0; text-wrap: balance; }
 .researcher-entry { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 17px; border-top: 1px solid var(--line); padding: 24px 0 26px; }
 .case-number { color: var(--muted); font: 400 12px/2 var(--mono); padding-top: 4px; }

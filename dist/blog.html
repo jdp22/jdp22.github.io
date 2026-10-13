@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Notebook · Dapeng Jiang</title>
-  <meta name="description" content="Dapeng Jiang's notebook: research notes, small experiments, and an interactive Conway's Game of Life.">
+  <meta name="description" content="Dapeng Jiang's notebook: research notes and thoughts along the way.">
   <meta name="theme-color" content="#326b9f">
   <link rel="canonical" href="https://jdp22.github.io/blog.html">
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
@@ -22,31 +22,13 @@
     <main id="main">
       <div class="breadcrumb"><a href="./index.html">home</a><span>/</span>blog</div>
       <h1 class="page-title">A little notebook.</h1>
-      <p class="page-intro">Research notes, small experiments, and thoughts along the way.</p>
+      <p class="page-intro">Research notes and thoughts along the way.</p>
       <section class="post-list" aria-label="Blog posts">
         <article class="post-preview" lang="en">
           <p class="post-meta"><time datetime="2026-10-13">2026.10.13</time><span aria-hidden="true">·</span><span>English</span></p>
           <h2><a href="./ai-research-paths.html">Awesome AI Dropouts <span aria-hidden="true">↗</span></a></h2>
         </article>
       </section>
-      <section aria-labelledby="experiment-title">
-        <h2 class="section-title" id="experiment-title">A tiny experiment: the Game of Life</h2>
-        <p class="experiment-intro">A grid, three simple rules, and patterns that move, repeat, and sometimes surprise you. Try a glider, a pulsar, or a random seed. Change a few cells and watch the world unfold.</p>
-        <div class="life blog-life is-expanded" data-life data-pattern="pulsar">
-          <div class="life-heading"><span class="life-title">Conway's Game of Life</span><div class="life-stats"><span>gen <span data-generation>0</span></span><span class="population"><span data-population>0</span> alive</span></div></div>
-          <div class="life-surface"><canvas tabindex="0" role="img" aria-label="Interactive cell grid. Click or drag to draw cells." aria-describedby="life-instructions">Your browser needs canvas support to display the Game of Life.</canvas></div>
-          <div class="life-actions"><button class="text-button" type="button" data-action="play" aria-pressed="true">[pause]</button><button class="text-button" type="button" data-action="reset">[reset]</button><span class="hint">a few simple rules. a little room for surprise.</span></div>
-          <div class="life-tools">
-            <label>Pattern <select data-pattern aria-label="Choose a Life pattern"><option value="garden">Glider garden</option><option value="gun">Glider gun</option><option value="glider">A single glider</option><option value="pulsar">Pulsar</option><option value="random">Random seed</option></select></label>
-            <button class="tool-button" type="button" data-action="step">step +1</button><button class="tool-button" type="button" data-action="clear">clear</button>
-            <label>Speed <input type="range" min="1" max="18" value="7" data-speed aria-label="Generations per second"><span data-speed-label>7×</span></label>
-            <p class="life-rules">Three neighbors bring a cell to life. Two or three keep it alive. Otherwise it disappears. The edges wrap around.<br><span id="life-instructions">Click or drag to draw. Keyboard: Space to pause, arrow keys to move, Enter to toggle a cell.</span></p>
-          </div>
-          <span class="sr-only" role="status" aria-live="polite" data-status></span>
-          <noscript><p class="no-js">Enable JavaScript to play with the Game of Life.</p></noscript>
-        </div>
-      </section>
-      <p class="off-duty">You can also find my work on the <a href="./research.html">research page</a>, or find me on <a href="https://x.com/RandomForestDP" target="_blank" rel="noopener noreferrer">X</a>.</p>
     </main>
     <footer class="footer"><span>keep exploring.</span><span>Dapeng Jiang · <a href="mailto:jdp22@mails.tsinghua.edu.cn">say hello</a></span><a class="top" href="#top">↑ top</a></footer>
   </div>

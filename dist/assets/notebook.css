@@ -7,6 +7,9 @@
 .post-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; color: var(--muted); font: 400 12px/1.9 var(--mono); margin: 0; }
 .post-main { max-width: 760px; }
 .post-header { margin-bottom: 30px; }
+.post-intro { font-size: 18px; line-height: 1.8; margin: 17px 0 12px; }
+.post-contribute { color: var(--muted); font-size: 15px; line-height: 1.8; margin: 0; }
+.case-source-note { color: var(--muted); font-size: 12px; line-height: 1.7; margin: 8px 0 0; }
 .post-title { color: var(--blue); font-size: 36px; line-height: 1.5; font-weight: 500; letter-spacing: -.5px; margin: 13px 0 0; text-wrap: balance; }
 .researcher-entry { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 17px; border-top: 1px solid var(--line); padding: 24px 0 26px; }
 .case-number { color: var(--muted); font: 400 12px/2 var(--mono); padding-top: 4px; }
@@ -22,6 +25,6 @@
   .post-preview h2 { font-size: 22px; }
   .researcher-entry { grid-template-columns: 23px minmax(0, 1fr); gap: 10px; padding: 22px 0; }
   .researcher-entry h2 { font-size: 21px; gap: 4px 12px; }
-  .case-summary { font-size: 17px; }
+  .case-summary, .post-intro { font-size: 17px; }
   .source-links { gap: 5px 18px; }
 }
